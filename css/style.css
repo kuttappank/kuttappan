@@ -1,0 +1,19 @@
+* {-webkit-box-sizing: border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+body {margin:0;padding:0;text-align:left;font:12px Arial, Helvetica, sans-serif;}
+.container{width:1024px;margin:0 auto 0 auto;}
+.header{height:89px;color:rgb(150, 0, 150);}
+.header h1{text-align: center;padding-top:10px;}
+.header img{float:left;}
+.menu{float:left;clear:both;width:1024px;height:50px;background-color:rgba(0,0,0,0.8);border:#ffffff;border-radius:10px;padding-top:7px;}
+.menu ul{list-style: none;padding: 0;margin-left: auto;}
+.menu li{list-style: none;padding:0;display: inline;}
+.menu li a{float: left;text-align: center;padding: 0 25px 0 25px;color: #ffffff;font-weight: bold;text-decoration: none;}
+.leftmenu{margin-top: 15px;width: 190px;background: rgba(235, 235, 235, .8);float: left;border-radius: 10px;padding: 15px 10px 5px 15px;}
+.leftmenu ul{list-style: none;padding: 0}
+.leftmenu li{list-style:none;padding:15px 0 8px 0;border-bottom: rgb(245, 245, 245,) dashed 1px;}
+.leftmenu h3{padding-bottom: 8px;border-bottom: #fff solid 2px;}
+.leftmenu a{font-size:14px;font-weight:bold;}
+.content{padding:0;margin-top: 15px;width:750px;float:right;}
+.productcontent{padding: 0;width: 760px;height:500px;float:right;}
+.productcontent span{display:flex;}
+.productbox{width:250px;height:250px;border:solid;}
